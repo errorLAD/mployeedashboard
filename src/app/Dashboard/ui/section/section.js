@@ -3,25 +3,25 @@ import SemiCircleProgressBar from "react-progressbar-semicircle";
 export default function Section() {
   return (
     <>
-     <div class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+     <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
        <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
        <div className=" lg:col-span-2">
        <div className="text-center sm:text-left">
           <h1 className="text-xl font-bold text-gray-900 sm:text-xl">Properties</h1>
           {/* Success */}
   
-          <span class="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span class="text-gray-400 ">  Job Type: </span> Hybrid</span>
-          <span class="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span class="text-gray-400 ">  Date Posted: </span>24-04-2024 to 30-04-2024</span>
-          <div class="pt-2">
-          <span class="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span class="text-gray-400 "> Job Type: </span> Full-Time</span>
+          <span className="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span className="text-gray-400 ">  Job Type: </span> Hybrid</span>
+          <span className="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span className="text-gray-400 ">  Date Posted: </span>24-04-2024 to 30-04-2024</span>
+          <div className="pt-2">
+          <span className="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span className="text-gray-400 "> Job Type: </span> Full-Time</span>
           
-          <span class="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span class="text-gray-400 ">  Salary Range: </span>$1000 - $2,500</span>
+          <span className="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span className="text-gray-400 ">  Salary Range: </span>$1000 - $2,500</span>
           </div>
-          <div class="pt-2">
-          <span class="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span class="text-gray-400 ">  Locations: </span> Pune   &gt;   Delhi   &gt;   Hyderabad   &gt;   Tamil Nadu</span>
-          <span class="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span class="text-gray-400 "> </span>+1</span>
+          <div className="pt-2">
+          <span className="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span className="text-gray-400 ">  Locations: </span> Pune   &gt;   Delhi   &gt;   Hyderabad   &gt;   Tamil Nadu</span>
+          <span className="bg-gray-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-gray-200"><span className="text-gray-400 "> </span>+1</span>
    
-          <span class="bg-orange-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-orange-200"><span class="text-orange-400 "> </span>Edit Profile</span>
+          <span className="bg-orange-100 text-xs font-medium me-2 px-2.5 py-1.5 rounded border border-orange-200"><span className="text-orange-400 "> </span>Edit Profile</span>
        
           </div>
     
@@ -36,7 +36,7 @@ export default function Section() {
         Lorem ipsum dolor sit consectetur adipiscing elit 
         </p>
         <a
-         class="inline-block rounded bg-orange-400 px-10 py-2 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-indigo-500"
+         className="inline-block rounded bg-orange-400 px-10 py-2 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-indigo-500"
         href="#"
         >
          Refresh Jobs
@@ -54,26 +54,26 @@ export default function Section() {
  {/* section jobs */}
 
 
-     <div class="pt-4">
+     <div className="pt-4">
      <h2 className="py-2 text-l font-bold text-gray-900 sm:text-l">Jobs(44)</h2>
           
-     <div class=" w-full p-4  bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
-         <div class="w-full p-4  bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+     <div className=" w-full p-4  bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+         <div className="w-full p-4  bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
              <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
                  <div className="h-32 rounded-lg  lg:col-span-2">
                    
-                 <div class="flex ">
-                    <div class="flex-shrink-0">
-                        <img class="w-10 h-10 rounded" src="https://i.postimg.cc/kgS3Xz3n/Screenshot-2024-05-10-104816.png" alt="Neil image"/>
+                 <div className="flex ">
+                    <div className="flex-shrink-0">
+                        <img className="w-10 h-10 rounded" src="https://i.postimg.cc/kgS3Xz3n/Screenshot-2024-05-10-104816.png" alt="Neil image"/>
                     </div>
-                    <div class="flex-1 min-w-0 ms-4">
-                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                    <div className="flex-1 min-w-0 ms-4">
+                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                           UI/UX Designer
                         </p>
-                        <h6 class="text-sm text-gray-500 truncate dark:text-gray-400">
+                        <h6 className="text-sm text-gray-500 truncate dark:text-gray-400">
                      Google   
                         {/* Success */}
-   <span class="px-2"><span
+   <span className="px-2"><span
      className="inline-flex items-center justify-center rounded-full bg-orange-50 px-2.5 py-0.5 text-orange-700"
     >
    <p className="text-xs whitespace-nowrap text-sm">Figma</p>
@@ -84,7 +84,7 @@ export default function Section() {
   >
   <p className="text-xs whitespace-nowrap text-sm">Prototyping</p>
   </span>
-  <span class="px-2">
+  <span className="px-2">
   <span
   className="text-sm inline-flex items-center justify-center rounded-full bg-indigo-50 px-2.5 py-0.5 text-indigo-700"
   >
@@ -165,11 +165,11 @@ Posted on:
 
 
 {/* l*/}
-<p class="py-1 line-clamp-3 text-xs/relaxed text-gray-500">
+<p className="py-1 line-clamp-3 text-xs/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae 
      
     </p>
-    <p class=" line-clamp-3 text-xs/relaxed text-gray-500">
+    <p className=" line-clamp-3 text-xs/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae 
      
     </p>
@@ -188,7 +188,7 @@ Posted on:
                           Apply Now
                           </a>
 
-                           <span class="px-3">
+                           <span className="px-3">
                             <a
                             className=" gap-2  inline-block rounded-lg  border border-gray-400 px-4 gap-4 py-1.5 text-sm font-medium text-gray-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
                             href="#"
@@ -198,27 +198,27 @@ Posted on:
                            </span>
 
                              <SemiCircleProgressBar percentage={92} strokeWidth={15} showPercentValue  />
-                            <h6 class="text-center text-xs">match score </h6>
+                            <h6 className="text-center text-xs">match score </h6>
                </div>
              </div>
       </div>
         <br/>
-        <div class="w-full p-4  bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <div className="w-full p-4  bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
              <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
                  <div className="h-32 rounded-lg  lg:col-span-2">
                    
-                 <div class="flex ">
-                    <div class="flex-shrink-0">
-                        <img class="w-10 h-10 rounded" src="https://i.postimg.cc/kgS3Xz3n/Screenshot-2024-05-10-104816.png" alt="Neil image"/>
+                 <div className="flex ">
+                    <div className="flex-shrink-0">
+                        <img className="w-10 h-10 rounded" src="https://i.postimg.cc/kgS3Xz3n/Screenshot-2024-05-10-104816.png" alt="Neil image"/>
                     </div>
-                    <div class="flex-1 min-w-0 ms-4">
-                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                    <div className="flex-1 min-w-0 ms-4">
+                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                           UI/UX Designer
                         </p>
-                        <h6 class="text-sm text-gray-500 truncate dark:text-gray-400">
+                        <h6 className="text-sm text-gray-500 truncate dark:text-gray-400">
                      Google   
                         {/* Success */}
-   <span class="px-2"><span
+   <span className="px-2"><span
      className="inline-flex items-center justify-center rounded-full bg-orange-50 px-2.5 py-0.5 text-orange-700"
     >
    <p className="text-xs whitespace-nowrap text-sm">Figma</p>
@@ -229,7 +229,7 @@ Posted on:
   >
   <p className="text-xs whitespace-nowrap text-sm">Prototyping</p>
   </span>
-  <span class="px-2">
+  <span className="px-2">
   <span
   className="text-sm inline-flex items-center justify-center rounded-full bg-indigo-50 px-2.5 py-0.5 text-indigo-700"
   >
@@ -310,11 +310,11 @@ Posted on:
 
 
 {/* l*/}
-<p class="py-1 line-clamp-3 text-xs/relaxed text-gray-500">
+<p className="py-1 line-clamp-3 text-xs/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae 
      
     </p>
-    <p class=" line-clamp-3 text-xs/relaxed text-gray-500">
+    <p className=" line-clamp-3 text-xs/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae 
      
     </p>
@@ -333,7 +333,7 @@ Posted on:
                           Apply Now
                           </a>
 
-                           <span class="px-3">
+                           <span className="px-3">
                             <a
                             className=" gap-2  inline-block rounded-lg  border border-gray-400 px-4 gap-4 py-1.5 text-sm font-medium text-gray-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
                             href="#"
@@ -343,27 +343,27 @@ Posted on:
                            </span>
 
                              <SemiCircleProgressBar percentage={92} strokeWidth={15} showPercentValue  />
-                            <h6 class="text-center text-xs">match score </h6>
+                            <h6 className="text-center text-xs">match score </h6>
                </div>
              </div>
       </div>
       <br/>
-      <div class="w-full p-4  bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full p-4  bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
              <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
                  <div className="h-32 rounded-lg  lg:col-span-2">
                    
-                 <div class="flex ">
-                    <div class="flex-shrink-0">
-                        <img class="w-10 h-10 rounded" src="https://i.postimg.cc/kgS3Xz3n/Screenshot-2024-05-10-104816.png" alt="Neil image"/>
+                 <div className="flex ">
+                    <div className="flex-shrink-0">
+                        <img className="w-10 h-10 rounded" src="https://i.postimg.cc/kgS3Xz3n/Screenshot-2024-05-10-104816.png" alt="Neil image"/>
                     </div>
-                    <div class="flex-1 min-w-0 ms-4">
-                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                    <div className="flex-1 min-w-0 ms-4">
+                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                           UI/UX Designer
                         </p>
-                        <h6 class="text-sm text-gray-500 truncate dark:text-gray-400">
+                        <h6 className="text-sm text-gray-500 truncate dark:text-gray-400">
                      Google   
                         {/* Success */}
-   <span class="px-2"><span
+   <span className="px-2"><span
      className="inline-flex items-center justify-center rounded-full bg-orange-50 px-2.5 py-0.5 text-orange-700"
     >
    <p className="text-xs whitespace-nowrap text-sm">Figma</p>
@@ -374,7 +374,7 @@ Posted on:
   >
   <p className="text-xs whitespace-nowrap text-sm">Prototyping</p>
   </span>
-  <span class="px-2">
+  <span className="px-2">
   <span
   className="text-sm inline-flex items-center justify-center rounded-full bg-indigo-50 px-2.5 py-0.5 text-indigo-700"
   >
@@ -455,11 +455,11 @@ Posted on:
 
 
 {/* l*/}
-<p class="py-1 line-clamp-3 text-xs/relaxed text-gray-500">
+<p className="py-1 line-clamp-3 text-xs/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae 
      
     </p>
-    <p class=" line-clamp-3 text-xs/relaxed text-gray-500">
+    <p className=" line-clamp-3 text-xs/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae 
      
     </p>
@@ -478,7 +478,7 @@ Posted on:
                           Apply Now
                           </a>
 
-                           <span class="px-3">
+                           <span className="px-3">
                             <a
                             className=" gap-2  inline-block rounded-lg  border border-gray-400 px-4 gap-4 py-1.5 text-sm font-medium text-gray-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
                             href="#"
@@ -488,7 +488,7 @@ Posted on:
                            </span>
 
                              <SemiCircleProgressBar percentage={92} strokeWidth={15} showPercentValue  />
-                            <h6 class="text-center text-xs">match score </h6>
+                            <h6 className="text-center text-xs">match score </h6>
                </div>
              </div>
       </div>
