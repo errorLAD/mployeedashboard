@@ -3,14 +3,14 @@ import Image from "next/image";
 export default function Navbar() {
   return (
   <>
-  <div class="container mx-auto px-4">
+  <div className="container mx-auto px-4">
   <header className="bg-white">
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div className="flex h-16 items-center justify-between">
       <div className="flex-1 md:flex md:items-center md:gap-12">
         <a className="block text-teal-600" href="#">
           <span className="sr-only">Home</span>
-          <img class="w-50 h-10 rounded" src="https://i.postimg.cc/CLj1WJVY/Screenshot-2024-05-10-122428.png" alt="Neil image"/>
+          <img className="w-50 h-10 rounded" src="https://i.postimg.cc/CLj1WJVY/Screenshot-2024-05-10-122428.png" alt="Neil image"/>
                    
         </a>
       </div>
