@@ -123,7 +123,7 @@ s*/}
       >
       <div class="flex ">
                     <div class="flex-shrink-0">
-                        <img class="w-10 h-10 rounded" src="https://i.postimg.cc/kgS3Xz3n/Screenshot-2024-05-10-104816.png" alt="Neil image"/>
+                        <img class="w-10 h-10 rounded" src="https://i.postimg.cc/VN22jkm3/images-6-removebg-preview.png" alt="Neil image"/>
                     </div>
                     <div class="flex-1 min-w-0 ms-4">
                         <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
